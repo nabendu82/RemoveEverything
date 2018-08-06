@@ -1,12 +1,14 @@
 {
 
-  "description": "Forget it!",
+  "description": " Firefox addon to remove anything from history, passwords, downloads to serviceWorkers",
   "manifest_version": 2,
-  "name": "forget-it",
-  "version": "2.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/forget-it",
+  "name": "Remove-Everything",
+  "version": "1.0",
+  "homepage_url": "https://github.com/nabendu82/RemoveEverything",
   "icons": {
-    "48": "icons/trash.svg"
+    "32": "icons/logo_32.png",
+    "48": "icons/logo_48.png",
+    "64": "icons/logo_64.png"
   },
 
   "background": {
@@ -14,8 +16,8 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/trash.svg",
-    "default_title": "Forget it!"
+    "default_icon": "icons/logo_64.png",
+    "default_title": "Remove it!"
   },
 
   "options_ui": {
